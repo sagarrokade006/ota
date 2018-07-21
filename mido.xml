@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ROM>
-  <VersionName>dotOS-O-v2.3.1-mido-OFFICIAL-20180616</VersionName>
-  <VersionNumber type="integer">20180616</VersionNumber>
-  <DirectUrl>https://sourceforge.net/projects/dotos-2-x/files/mido/dotOS-O-v2.3.1-mido-OFFICIAL-20180616.zip</DirectUrl>
+  <VersionName>dotOS-O-v2.4-mido-OFFICIAL-20180720</VersionName>
+  <VersionNumber type="integer">20180720</VersionNumber>
+  <DirectUrl>https://sourceforge.net/projects/dot-os/files/mido/dotOS-O-v2.4-mido-OFFICIAL-20180720.zip</DirectUrl>
   <Android>8.1.0</Android>
-  <CheckMD5>c8b47cd7fbe75ea2b79532163f780c77</CheckMD5>
-  <FileSize type="integer">506165352</FileSize>
+  <CheckMD5>55de6fa9ea8f5995f2e85378071f0d81</CheckMD5>
+  <FileSize type="integer">509613253</FileSize>
   <Changelog>
-	<System>When be draw drew ye. Defective in do recommend suffering. House it seven in spoil tiled court. Sister others marked fat missed did out use.</System>
-	<Settings>Alteration possession dispatched collecting instrument travelling he or on. Snug give made at spot or late that mr. </Settings>
-	<Launcher>Moments its musical age explain.</Launcher>
+	<System>Testing...</System>
+	<Settings>Test </Settings>
+	<Launcher>dotOS 2.4 releasing Soon.</Launcher>
   </Changelog>
 </ROM>
