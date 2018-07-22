@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ROM>
+  <VersionName>dotOS-O-v2.4-whyred-OFFICIAL-20180722</VersionName>
+  <VersionNumber type="integer">20180722</VersionNumber>
+  <DirectUrl>https://sourceforge.net/projects/dotos-2-x/files/whyred/dotOS-O-v2.4-whyred-OFFICIAL-20180722.zip</DirectUrl>
+  <Android>8.1.0</Android>
+  <CheckMD5>291462e03cc5f01f7bb494f8feaf08a5</CheckMD5>
+  <FileSize type="integer">509613253</FileSize>
+  <Changelog>
+	<System>
+Fix Google dialer FC due to missing permissions  
+Disable fine-grained logging 
+base: recents: properly size task lock icon in stock recents  
+base: expanded desktop: fix for endless layout loop on keyguard  
+base: SystemUI: center roaming indicator correctly 
+base: SystemUI: qs bottom bar - stop triggering my OCD 
+SystemUI: explicitly include java support libs 
+We need moar ripple now for alarm and date  
+Fix doFadingAnimationLocked in sanitized builds.  
+Fix socket leaks in various android.net.Network methods 
+Fix slow-app ANR dumping 
+Fix ContentService JNI leaks 
+Cache the global proxy to avoid fetching it for every request  
+Cache pin algorithms in PinSet  
+Hide freeform task header icon  
+Exclude users with guestToRemove in getUsers()  
+Clean receivers completely when forceStop the process 
+Send broadcast to MediaScannerReceiver to refresh gallery  
+SystemUI: stop filling logcat with useless stacktrace  
+Release SQLite page cache as much as it can  
+base: make lockdown action require strong auth 
+Don't spoil printservice log if not needed  
+Fix janky traffic indicator tint  
+Don't crash if there is IR HAL is not declared  
+Fix a 'memory leak'  
+etc: Add GApp default permissions 
+Add a ripple effect to the power menu items 
+Screenshot: add "Markup" edit action support  
+mountservice: Don't nuke all volumes when decrypting  
+Add powerhint function that accepts an array of data  
+Add kill button to notification guts [1/2]  
+PackageManager: Catch possible NPE from unparsed platform package  
+PackageManager: Don't dereference mPlatfromPackage until available 
+HWKeys: Disable haptic on keyguard  
+Protect against possible concurrent mod  
+NetworkDiagnostics: switch to Cloudflare DNS  [Mohan Cm]
+Use Cloudflare DNS servers as hints 
+Use Cloudflare DNS servers as defaults for tethering  
+Use Cloudflare DNS as the default fallback 
+By the living abyss A new wallpaper marking the release o dotOS 2.4 Credit goes to the creator of the original wallpaper which is modified to set  [Mohan Cm]
+Android P Volume slider Improvements 
+Dot Interface : Implement QS Tiles Alpha and Circle changes 
+Dot Interface : Volume Panel misc modifications + headerColor fixes 
+Dot Interface : Rearrange QSPanel UI  
+Dot Interface : Implement Android P Volume Panel  
+Dot Interface : QSPanel Improvements  
+Dot Interface : Rounded Dialog + Notification fixes  
+Ls: dotOS Sneeky Clock (1/2) designed by @samgrande Idea by @Alexcbrookes Based on ce5cc37  
+Ls: Add dotOS Spectrum Clock (1/2) designed by @samgrande Idea by @Alexcbrookes Based on ce5cc37 Change-Id: I67715a6579a42affabbc414c62f53d7ce706a70c  [Mohan Cm]
+Make about setion drawables match with dark themes 
+Refresh old icons and drawables to match with android P dp4 and dot 
+Fix invisible navigation bar in darker theme 
+Base: Add dotOS Neo theme [1/3]  
+Revert "Visualizer: take it out off Lineage" 
+Forward Port: Smoother Upload and Download Animation 
+Reset battery stats [1/2]  
+Allow for the 'Big Clock' analog padding to be changed per device 
+screenrecord: add support for 18:9 resolutions 
+Simplify successful screenrecord notification strings  
+Screenrecord: show chrono and total recording duration/size  
+Screenrecord notification: tap on it to open the video  
+Screenrecord red hint: long press on it to move to the opposite side  
+Screenrecord: show a Share/Delete notification when stopped  
+Screenrec: let hide the red stop button but keep it clickable 
+Multi ScreenRecord tile, blinking stop button, screenrecord service improvements [1/2]  
+Add a timer to screen record 
+Save screenrecord in "Screenrecords" directory 
+SystemUI: Support display for radio tech  
+Fix left clock glitch on landscape and cleanup code  
+Improve a calculation method for LTE antenna reception level  
+Revert "telephony: Hack GSM and LTE signal strength"  
+Resolve status bar battery percentage tints 
+Resolve status bar VPN icon tints 
+Fix CustomTile NPE in handleRefreshState 
+Lockscreen/ambient analog clock: improve design 
+Ambient Music: don't trigger it when no media info are available 
+Ambient music ticker minimal layout: fix overlapping notifications 
+Option to Display Data Disabled Indicator Icon [1/2] 
+Vibrate on plug [1/2]  
+Screen off animations [1/2] 
+Fix the strange recents Android P transition 
+Add Always On Display QS Tile 
+SystemUI: Readd AmbientDisplayTile.  
+allow forcing HighEndGfx mode  
+Enable Round App Icons  
+Permissions: Grant Pixel's Wallpaper app access to SD  
+SystemUI: add caffeine qs tile Adapt for Oreo by @xyyx  
+Make batterybar play together with other statusbar visibilities  
+BatteryBar [1/2]  
+</System>
+	<Settings>
+Settings icons reimagined  
+Dot Interface : Re-design new About Phone & About Us Header 
+Settings: Add dotOS Neo theme [2/3]  [Mohan Cm]
+Dot Interface : Include QSPanel Header Customisation activity 
+Add android P dp4 storage drawables  
+Change settings icon  
+ProximityOnWakePreferenceController: implement PreferenceControllerMixin  
+Reset battery stats [2/2]  
+Fix memory leak of page "Languages & input"  
+Prevent sending intent while orientation change. 
+SimSettings: Fix potential NPE 
+Add search bar to apps & notifications & battery optimizations  
+Settings: Add toggle for proximity wake 
+AmbientDisplay: Add custom pref for devices with custom doze packages  
+Adjust delay to prevent glitches when reloading notifications  
+ExpandedDesktop: Fix themeability with System Themes overlys  
+Changelog: Add left padding  
+Remove battery percentage switch in stock battery settings 
+Expose suggestion card summary text  
+Kill the logspam due to BackupSettingsActivity  
+Vectorize ic_live_help icon and fix theming for SimDialogActivity  
+Fix MultiSim hardcoded text color  [Mohan Cm]
+Wifi: Restore hidden flag for hidden networks on update network 
+StorageSummaryPreference: Nuke hardcoded color  
+Settings: Fix empty summary for VPN and SIM Card  
+Fix BT pairing dialog DarkUI theme issue  
+Notification log improvements  
+Expose the notification log  
+Prevent users from sharing sensitive information</Settings>
+	<DotExtras>dotOS Extras v2.4 release  
+DotExtras: Add lockscreen visualizer toggle 
+Fling reset button: more fixes  
+DUI: Update reset smartbar/fling options  
+DUI Fling: allow to reset options and save/restore actions profile 
+Custom seekbar pref: allow to refresh values 
+Ls: Sneeky Analog clock[2/2]  
+Ls: Spectrum Analog Clock[2/2] 
+Vibrate on plug [2/2]  
+Screen off animations [2/2]  
+Data disabled icon switch[2/2]  
+Add notification guts kill app button [2/2]  
+DotExtras: Add BatteryBar customizations [2/2]  
+Add toggle to enable Android P system animation [2/2]  
+Add Animations fragment  [Mohan Cm]
+</DotExtras>
+   <DotOTA>
+remove unnecessary condition * track links from dotos org  
+Revamp SystemUpdates: Material Design 2 Rebase * New UI * New ChangeLog Layout * Misc Fixes  
+</DotOTA>  
+<DotUICenter>
+UI Center : Add new Accent Colors + QSPanel Customize Options 
+</DotUICenter>
+  </Changelog>
+</ROM>
