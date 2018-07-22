@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ROM>
-  <VersionName>dotOS-O-v2.4-mido-OFFICIAL-20180720</VersionName>
-  <VersionNumber type="integer">20180720</VersionNumber>
-  <DirectUrl>https://sourceforge.net/projects/dot-os/files/mido/dotOS-O-v2.4-mido-OFFICIAL-20180720.zip</DirectUrl>
+  <VersionName>dotOS-O-v2.4-mido-OFFICIAL-20180721</VersionName>
+  <VersionNumber type="integer">20180721</VersionNumber>
+  <DirectUrl>https://sourceforge.net/projects/dotos-2-x/files/mido/dotOS-O-v2.4-mido-OFFICIAL-20180721.zip</DirectUrl>
   <Android>8.1.0</Android>
-  <CheckMD5>55de6fa9ea8f5995f2e85378071f0d81</CheckMD5>
-  <FileSize type="integer">509613253</FileSize>
+  <CheckMD5>54b14d126974569b9c79fe98bc5bef1f</CheckMD5>
+  <FileSize type="integer">511679843</FileSize>
   <Changelog>
-	<System>Testing...</System>
+	<System>Hello World!</System>
 	<Settings>Test </Settings>
 	<Launcher>dotOS 2.4 releasing Soon.</Launcher>
   </Changelog>
